@@ -1,0 +1,31 @@
+
+.sub-footer{
+    padding: 100px 0;
+    background-color: rgba(41, 48, 68, 1);
+    color: $white;
+    ul>li{
+        list-style: square;
+        margin-left: 20px; 
+        @include animate();
+        &:hover{
+            margin-left: 25px;
+        }
+        a{
+            color: darken($white, 25%);
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+}
+
+.footer-section{
+    background-color: #0E1833;
+    padding: 20px 0;
+    color: $white;
+    .footer-text{
+        a{
+            color: $bgColor;
+        }
+    }
+}
