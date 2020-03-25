@@ -102,3 +102,36 @@
         }
     }
 }
+
+// Responsive 
+@media(max-width: 991px){
+    .services-section .section-heading {
+        margin-top: 0;
+    }
+}
+@media( min-width:768px ) and (max-width: 991px){
+    
+}
+
+@media(max-width:767px){
+    .services-section .services .my-services {
+        .item {
+            padding: 0;
+            margin-bottom: 30px;
+            width: 100%;
+            &:nth-child(2) {
+                margin-top: 0px;
+            }
+            &:nth-child(3) {
+                margin-top: 0px;
+            }
+            &:nth-child(4) {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px){
+    
+}

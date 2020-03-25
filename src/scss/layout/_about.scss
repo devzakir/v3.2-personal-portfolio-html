@@ -144,3 +144,31 @@
 .about-section.active {
     overflow: hidden;
 }
+
+
+// Responsive 
+@media(max-width: 991px){
+    .my-photo {
+        margin: 0 auto 50px;
+    }
+    .about-section .about-heading {
+        text-align: center;
+        margin-right: 0;
+        border: 0;
+    }
+    
+    .about-section .about-me nav .nav-tabs .nav-link {
+        margin: 0 auto;
+    }
+}
+@media( min-width:768px ) and (max-width: 991px){
+    
+}
+
+@media(max-width:767px){
+
+}
+
+@media(max-width: 575px){
+    
+}
