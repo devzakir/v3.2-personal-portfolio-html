@@ -50,7 +50,6 @@ header{
                 padding: 20px 10px;
                 font-size: 14px;
                 text-transform: uppercase;
-                font-weight: 700;
                 color: darken($color, 0%);
                 &.hire-me {
                     border: 1px solid $color;
@@ -70,9 +69,9 @@ header{
         .right {
             li {
                 a {
-                    font-weight: 500;  
+                    font-weight: 600;
                     &.hire-me {
-                        font-weight: 700;
+                        font-weight: 600;
                     }
                 }
             }

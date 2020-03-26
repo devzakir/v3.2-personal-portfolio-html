@@ -40,7 +40,6 @@ a {
     color: $color;
     display: inline-block;
     @include animate();
-    font-family: $font1;
 }
 
 .color {
@@ -51,22 +50,6 @@ a:hover,
 a:focus {
     color: $bgColor;
     text-decoration: none;
-}
-
-p {
-    font-size: $fsNormal;
-    line-height: 24px;
-    margin: 0;
-    font-family: $font2;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $font1;
 }
 
 @media (min-width: 1200px){ 
