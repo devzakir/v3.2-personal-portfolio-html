@@ -27,7 +27,6 @@ header.active {
 
 
 header{
-    // background-color: #245cd1;
     &+ .about-section:before{
         content: "";
         position: absolute;
@@ -41,7 +40,6 @@ header{
     }
     .menu-part{
         padding: 15px 0;
-        // border-bottom: 1px solid rgba(36, 92, 209, 0.25);
         .logo{
             max-width: 40px;
             margin-right: 10px;
@@ -49,12 +47,9 @@ header{
         li{
             display: inline-block;
             a{
-                // color: $white;
                 padding: 20px 10px;
-                font-family: $font2;
                 font-size: 14px;
                 text-transform: uppercase;
-                // color: $color;
                 font-weight: 700;
                 color: darken($color, 0%);
                 &.hire-me {
@@ -88,7 +83,6 @@ header{
 // Responsive
 @media(max-width: 991px){
     header{
-        // background-color: black;
         .menu-part {
             flex-wrap: wrap;
             .logo {
