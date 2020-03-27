@@ -37,15 +37,16 @@
         </div>
     </header>
     
-    <section class="products">
+    <section class="blog section">
         <div class="container">
             <div class="row">
-                <div class="col-12 heading">
-                    <h2> Free Products </h2>
-                    <p>Grab websites for free</p>
+                <div class="col-12 text-center">
+                    <div class="heading">
+                        <h3> Recent Posts </h3>
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row post-list">
                 <div class="col-4">
                     <div class="box">
                         <div class="image">
@@ -53,7 +54,7 @@
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a href="#">Lorem ipsum dolor sit amet.</a>
+                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
                             </div>
                             <div class="info-footer">
                                 <div class="category">
@@ -66,12 +67,44 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <h5 v-if="products.lenght || products.length == 0 ? true : false" class="text-center">No Products Found</h5>
-                    <div class="buttons text-center">
-                    <button v-if="products.length > 0 ? true : false" href="#" @click="getProductData(next_page_url)" :disabled="!loadMore">Load More</button>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="image">
+                            <img src="/src/images/portfolio1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
+                            </div>
+                            <div class="info-footer">
+                                <div class="category">
+                                    <p>Category</p>
+                                </div>
+                                <div class="hightlight">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="image">
+                            <img src="/src/images/portfolio1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
+                            </div>
+                            <div class="info-footer">
+                                <div class="category">
+                                    <p>Category</p>
+                                </div>
+                                <div class="hightlight">
+                                    <p>Free</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

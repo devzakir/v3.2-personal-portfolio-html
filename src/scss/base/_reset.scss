@@ -58,7 +58,9 @@ a:focus {
     }
 }
 
-// 404 page
-section.not-found {
-    padding: 160px 0;
+.section {
+    padding: 95px 0px 100px;
+    .heading {
+        margin-bottom: 45px;
+    }
 }
