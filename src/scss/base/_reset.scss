@@ -12,12 +12,13 @@ img {
 
 body {
     background-color: $bgColor;
-    user-select: none;
+    // user-select: none;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     font-family: $font2;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 a {

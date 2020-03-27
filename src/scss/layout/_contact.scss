@@ -151,10 +151,10 @@
 @media(max-width:767px){
     .contact-section .contact-details {
         &::after {
-            left: -25px;
+            left: -15px;
             height: 100%;
             top: 50px;
-            width: calc(100% + 50px);
+            width: calc(100% + 30px);
             border-radius: 5px;
             background-image: linear-gradient(to bottom, #6493fa, #245cd1)
         }
