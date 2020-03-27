@@ -1,9 +1,11 @@
 // Font Import
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 // Fonts
-$font1 : 'Poppins' sans-serif;
+$font1 : 'Ubuntu', sans-serif;
 $font2 : 'Open Sans', sans-serif;
 
 
@@ -25,12 +27,23 @@ h4,
 h5,
 h6 {
     font-family: $font1;
+}
+
+h1,
+h2,
+h3 {
     font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 600;
 }
 
 a {
     font-family: $font1;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p {

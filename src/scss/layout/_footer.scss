@@ -27,8 +27,12 @@
     padding: 20px 0;
     color: $white;
     .footer-text{
+        p {
+            font-size: 13px;
+            color: darken($bgColor, 30%);
+        }
         a{
-            color: $bgColor;
+            color: darken($bgColor, 30%);
         }
     }
 }
