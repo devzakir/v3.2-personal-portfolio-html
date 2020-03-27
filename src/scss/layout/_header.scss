@@ -76,6 +76,9 @@ header{
                 }
             }
         }
+        .menu-toggle {
+            display: none;
+        }
     }
 }
 
@@ -91,7 +94,7 @@ header{
                 order: 2;
             }
             ul.mobile-nav {
-                order: 3;
+                order: 4;
                 width: 100%;
                 background-color: white;
                 padding: 10px 0;
@@ -108,6 +111,14 @@ header{
                     } 
                 }
             } 
+            .menu-toggle {
+                display: flex;
+                order: 3;
+                padding: 10px 15px;
+                background-color: white;
+                margin-left: 10px;
+                border-radius: 3px;
+            }
         }
     }
 }
