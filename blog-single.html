@@ -37,47 +37,72 @@
         </div>
     </header>
     
-    <section class="section">
+    <section class="breadcrum">
         <div class="container">
             <div class="row">
-                <div class="col-12 heading">
-                    <h2> Free Products </h2>
-                    <p>Grab websites for free</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="box">
-                        <div class="image">
-                            <img src="/src/images/portfolio1.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="info">
-                            <div class="title">
-                                <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </div>
-                            <div class="info-footer">
-                                <div class="category">
-                                    <p>Category</p>
-                                </div>
-                                <div class="hightlight">
-                                    <p>Free</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-12">
-                    <h5 v-if="products.lenght || products.length == 0 ? true : false" class="text-center">No Products Found</h5>
-                    <div class="buttons text-center">
-                    <button v-if="products.length > 0 ? true : false" href="#" @click="getProductData(next_page_url)" :disabled="!loadMore">Load More</button>
+                    <div class="heading">
+                        <h2>Product Title Goes Here</h2>
+                        <div class="index">
+                            <router-link :to="{name: 'home'}">Home</router-link> <i
+                                class="fas fa-chevron-right"></i>
+                            <router-link :to="{ name: 'product', params: {slug: product.slug }}">Product
+                            </router-link>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <section class="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="product-image">
+                        <img src="src/images/slide1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a nulla voluptatem, illum
+                            sint quis
+                            nihil temporibus aut necessitatibus perspiciatis aspernatur quos sed provident, harum
+                            laudantium cumque
+                            nisi maxime est!</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="template-box">
+                        <a href="#" class="demo"> <i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <a href="" class="download"> <i class="fas fa-shopping-bag"></i> Buy Now </a>
+                    </div>
+                    <div class="sidebar-box">
+                        <h3>Course Summery</h3>
+                        <div class="content">
+                            <table>
+                                <tr>
+                                    <td> Category </td>
+                                    <td> Version </td>
+                                </tr>
+                                <tr>
+                                    <td> Students </td>
+                                    <td> Version </td>
+                                </tr>
+                                <tr>
+                                    <td> Duration </td>
+                                    <td> Responsive </td>
+                                </tr>
+                                <tr>
+                                    <td> Course Level </td>
+                                    <td> Responsive </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="sub-footer">
         <div class="container">
             <div class="row">

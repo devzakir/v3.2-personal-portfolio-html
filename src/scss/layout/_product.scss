@@ -1,27 +1,6 @@
 // Product Section
 .products {
-    padding: 100px 0 120px;
     background-color: $white;
-    .heading{
-        color: $color;
-        padding-right: 15px;
-        color: #626264;
-        margin-bottom: 50px;
-        border-right: 5px solid lighten($lightBlack, 60%);
-        text-align: right;
-        color: $color;
-        h2{
-            color: $color;
-            margin: 0;
-        }
-        p{
-            color: $lightBlack;
-        }  
-        
-        h2{
-            margin: 0;
-        }
-    }
 }
 
 // Responsive 

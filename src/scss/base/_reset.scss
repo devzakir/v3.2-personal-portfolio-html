@@ -64,3 +64,15 @@ a:focus {
         margin-bottom: 45px;
     }
 }
+
+.heading{
+    margin-bottom: 50px;
+    text-align: center;
+    h2{
+        color: $color;
+        margin: 0;
+    }
+    p{
+        color: $lightBlack;
+    }
+}

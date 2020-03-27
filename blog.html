@@ -42,7 +42,8 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="heading">
-                        <h3> Recent Posts </h3>
+                        <h2> My Blog </h2>
+                        <p>Check out recent posts</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +55,7 @@
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
+                                <a href="blog-single.html">Lorem ipsum dolor sit amet.</a>
                             </div>
                             <div class="info-footer">
                                 <div class="category">
@@ -74,7 +75,7 @@
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
+                                <a href="blog-single.html">Lorem ipsum dolor sit amet.</a>
                             </div>
                             <div class="info-footer">
                                 <div class="category">
@@ -94,7 +95,7 @@
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a href="course-single.html">Lorem ipsum dolor sit amet.</a>
+                                <a href="blog-single.html">Lorem ipsum dolor sit amet.</a>
                             </div>
                             <div class="info-footer">
                                 <div class="category">
@@ -105,6 +106,14 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h5 v-if="products.lenght || products.length == 0 ? true : false" class="text-center">No Products Found</h5>
+                    <div class="buttons text-center">
+                    <button v-if="products.length > 0 ? true : false" href="#" @click="getProductData(next_page_url)" :disabled="!loadMore">Load More</button>
                     </div>
                 </div>
             </div>
